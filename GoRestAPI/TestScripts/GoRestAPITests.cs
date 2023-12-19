@@ -109,7 +109,7 @@ namespace GoRestAPI
 
         [Test, Order(4)]
         [TestCase(5839450)]
-        public void DeleteBooking(int uid)
+        public void DeleteUser(int uid)
         {
             test = extent.CreateTest("Delete User");
             Log.Information("Delete User Test Started");
